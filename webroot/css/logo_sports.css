@@ -1,5 +1,6 @@
-.introduction__logo--sports{
+@media(max-width: 360px) {
+  .introduction__logo--sports{
   display: block;
   margin: auto;
 }
-
+} 
