@@ -3,3 +3,14 @@
   font-weight: 700;
   src: url("../fonts/Lato-Bold.woff");
 }
+
+h1 {
+  font-weight: 700;
+  src: url("../fonts/Lato-Bold.woff");
+}
+
+p{
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/Lato-Bold.woff");
+}
