@@ -14,3 +14,13 @@
 span {
   visibility: hidden;
 }
+
+h1 {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+p {
+  margin-top: 33px;
+  margin-bottom: 33px ;
+}
