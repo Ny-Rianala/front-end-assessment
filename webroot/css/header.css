@@ -1,5 +1,22 @@
 .introduction {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-column: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  display: flex;
+  align-content: flex-end;
+}
+
+@media (min-width: 360px) {
+  body{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media(min-width: 360px) {
+  h1 , p{
+    text-align: center;
+  }
 }

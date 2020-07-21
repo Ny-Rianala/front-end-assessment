@@ -1,4 +1,9 @@
 body {
-  display: inline;
-  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+  font-family: "Lato", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  list-style: none;
+  text-align: -9999px;
 }

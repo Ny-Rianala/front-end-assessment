@@ -1,0 +1,7 @@
+@media(min-width: 360px){
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+}
