@@ -3,7 +3,7 @@ body {
   font-family: "Lato", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-a {
+body > a {
   list-style: none;
   text-align: -9999px;
 }
