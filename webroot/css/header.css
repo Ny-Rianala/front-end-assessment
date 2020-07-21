@@ -1,15 +1,5 @@
-.introduction {
-  display: flex;
-  flex-direction: column;
-}
-
-img {
-  display: flex;
-  align-content: flex-end;
-}
-
 @media (min-width: 360px) {
-  body{
+  intro-heading{
     margin-left: 20px;
     margin-right: 20px;
   }
@@ -19,4 +9,8 @@ img {
   h1 , p{
     text-align: center;
   }
+}
+
+span {
+  visibility: hidden;
 }
