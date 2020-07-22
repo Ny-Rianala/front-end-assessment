@@ -1,7 +1,4 @@
-@media(min-width: 360px){
 .download-button {
-  display: flex;
-  flex-direction: row;
+  display: block;
   list-style: none;
-}
 }
