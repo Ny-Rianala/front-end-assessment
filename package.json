@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Ny-Rianala/front-end-assessment/issues"
   },
-  "homepage": "https://github.com/Ny-Rianala/front-end-assessment#readme"
+  "homepage": "https://github.com/Ny-Rianala/front-end-assessment#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
 }
