@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "Lato";
+  font-weight: 700;
+  src: local("Lato Bold");
+  src: url("../fonts/lato-Bold.woff"), url "../fonts/lato-Bold.woff2"; }
+
+@font-face {
+  font-family: "Lato";
+  font-weight: normal;
+  font-style: normal;
+  src: local("Lato Regular");
+  src: url("../fonts/lato-regular.woff"), url("../fonts/lato-regular.woff2"); }
+
+body {
+  font-family: "Lato", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-width: 100%;
+  min-height: 100%; }
+
+span {
+  visibility: hidden; }
+
+img {
+  min-width: 100%;
+  max-width: 100%; }
+
+.introduction {
+  display: block;
+  padding: 20px;
+  margin: auto; }
+
+.intro {
+  text-align: center;
+  margin: 0; }
+
+.heading {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  font-size: 30px; }
+
+.paragraph {
+  padding-top: 33px;
+  padding-bottom: 33px; }
+
+/*@media (max-width: 1120px) {
+  .heading {
+    width: 546px;
+    text-align: start;
+  }
+}
+
+@media (max-width: 1120px) {
+  .paragraph {
+    width: 531px;
+    text-align: start;
+  }
+}*/
+/* .logo-sports{
+  display: block;
+  margin: auto;
+  padding-top: 30px;
+} */
+.lg-sports {
+  width: 120px;
+  height: 60px; }
+
+@media (min-width: 1120px) {
+  .lg-sports {
+    padding-left: 158px;
+    width: 92px; } }
+
+/*.logo-sports{
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 186px;
+}*/
+.download-button {
+  display: flex;
+  flex-direction: row;
+  list-style: none; }
+
+.store-app {
+  margin-inline-end: 1rem; }
+
+.google {
+  margin-inline-start: 1rem; }
