@@ -1,6 +1,25 @@
-.logo-sports{
+/* .logo-sports{
   display: block;
   margin: auto;
+  padding-top: 30px;
+} */
+
+.lg-sports {
+  width: 120px;
+  height: 60px;
 }
 
+@media (min-width: 1120px){
+  .lg-sports{
+    padding-left: 158px;
+    width: 92px;
+  }
+}
+
+/*.logo-sports{
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 186px;
+}*/
 

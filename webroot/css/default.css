@@ -1,7 +1,16 @@
 body {
   font-family: "Lato", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-width: 100%;
+  min-height: 100%;
 }
 
 span {
   visibility: hidden;
 }
+
+img {
+  min-width: 100%;
+  max-width: 100%;
+}
+
+

@@ -1,5 +1,7 @@
 .introduction {
+    display: block;
     padding: 20px;
+    margin: auto;
   }
 
 .intro {
@@ -17,3 +19,18 @@
   padding-top: 33px;
   padding-bottom: 33px ;
 }
+
+/*@media (max-width: 1120px) {
+  .heading {
+    width: 546px;
+    text-align: start;
+  }
+}
+
+@media (max-width: 1120px) {
+  .paragraph {
+    width: 531px;
+    text-align: start;
+  }
+}*/
+

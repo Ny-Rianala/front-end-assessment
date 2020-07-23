@@ -1,4 +1,14 @@
 .download-button {
-  display: block;
+  display: flex;
+  flex-direction: row;
   list-style: none;
 }
+
+.store-app {
+  margin-inline-end: 1rem;
+}
+
+.google {
+  margin-inline-start: 1rem;
+}
+
