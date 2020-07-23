@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "A mockup-to-website example to be used as an assessment",
   "main": "index.js",
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Ny-Rianala/front-end-assessment.git"
@@ -17,7 +16,6 @@
   "devDependencies": {
     "node-sass": "^4.14.1"
   },
-
   "scripts": {
     "css": "node-sass scss -o webroot/css",
     "css:watch": "npm run css && node-sass scss -w -o webroot/css"
