@@ -20,7 +20,6 @@ span {
   visibility: hidden; }
 
 img {
-  min-width: 100%;
   max-width: 100%; }
 
 .introduction {
@@ -29,6 +28,7 @@ img {
   margin: auto; }
 
 .intro {
+  position: relative;
   text-align: center;
   margin: 0; }
 
@@ -41,10 +41,12 @@ img {
   padding-top: 33px;
   padding-bottom: 33px; }
 
-/*@media (max-width: 1120px) {
+/*
+@media (max-width: 1120px) {
   .heading {
     width: 546px;
     text-align: start;
+    justify-content: center;
   }
 }
 
@@ -52,22 +54,37 @@ img {
   .paragraph {
     width: 531px;
     text-align: start;
+    justify-content: center;
   }
-}*/
-/* .logo-sports{
-  display: block;
-  margin: auto;
-  padding-top: 30px;
-} */
-.lg-sports {
-  width: 120px;
-  height: 60px; }
+}
+*/
+.heading {
+  background-image: url(../webroot/img/bg_header.png);
+  background-repeat: no-repeat; }
 
-@media (min-width: 1120px) {
+.logo-sports {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0; }
+
+@media (max-width: 1120px) {
+  .lg-sports {
+    display: flex;
+    justify-content: start;
+    height: 60px; } }
+
+/*.lg-sports {
+  width: 120px;
+  height: 60px;
+}
+
+@media (min-width: 1120px){
   .lg-sports {
     padding-left: 158px;
-    width: 92px; } }
-
+    width: 92px;
+  }
+}*/
 /*.logo-sports{
   left: 0;
   right: 0;
