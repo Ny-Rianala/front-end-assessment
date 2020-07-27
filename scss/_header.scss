@@ -1,10 +1,13 @@
 .introduction {
-    display: block;
-    padding: 20px;
-    margin: auto;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  padding: 20px;
+}
 
 .intro {
+  position: relative;
   text-align: center;
   margin: 0;
   }
@@ -13,6 +16,7 @@
   padding-top: 50px;
   padding-bottom: 30px;
   font-size: 30px;
+  text-align: center;
 }
 
 .paragraph {
@@ -20,17 +24,17 @@
   padding-bottom: 33px ;
 }
 
-/*@media (max-width: 1120px) {
-  .heading {
-    width: 546px;
-    text-align: start;
+@media (min-width: 1114px) {
+  .introduction {
+    display: flex;
+    text-align: left;
+    justify-content: flex-start;
   }
 }
 
-@media (max-width: 1120px) {
-  .paragraph {
-    width: 531px;
-    text-align: start;
-  }
-}*/
+
+.introduction  {
+  background-image: url(../webroot/img/bg_header.png);
+  background-repeat: no-repeat;
+}
 
