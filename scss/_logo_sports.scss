@@ -1,40 +1,14 @@
-//  .logo-sports {
-//   display: block;
-//   margin: auto;
-//   padding-top: 30px;
-// }
-
 .logo-sports {
   display: flex;
   justify-content: center;
-  align-items: center;
   margin: 0;
 }
 
-@media (max-width: 1120px) {
+@media (min-width: 1114px) {
   .lg-sports {
     display: flex;
     justify-content: start;
-    height: 60px;
   }
 }
 
-/*.lg-sports {
-  width: 120px;
-  height: 60px;
-}
-
-@media (min-width: 1120px){
-  .lg-sports {
-    padding-left: 158px;
-    width: 92px;
-  }
-}*/
-
-/*.logo-sports{
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  width: 186px;
-}*/
 
