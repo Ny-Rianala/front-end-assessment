@@ -2,13 +2,21 @@
   display: flex;
   flex-direction: row;
   list-style: none;
+  justify-content: center;
+  margin: 0;
 }
 
 .store-app {
-  margin-inline-end: 1rem;
+  padding-right: 28px;
 }
 
 .google {
-  margin-inline-start: 1rem;
+  padding-bottom: 0;
 }
 
+@media(max-width: 1140px) {
+  .download-button {
+    padding: 0;
+    margin: 0;
+  }
+}
