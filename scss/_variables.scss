@@ -1,3 +1,9 @@
-$background-color-site: #F4F6F9;
+$background-color-site: #f4f6f9;
 $color-heading: #333333;
 $color-description: #4f4f4f;
+
+@mixin centered-max-width {
+  max-width: 1114px;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+}
