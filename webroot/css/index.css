@@ -13,8 +13,8 @@
 
 body {
   font-family: "Lato", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  min-width: 100%;
-  min-height: 100%; }
+  font-size: 16px;
+  background-color: #F4F6F9; }
 
 span {
   visibility: hidden; }
@@ -27,37 +27,37 @@ img {
   flex-direction: column;
   align-items: center;
   margin: auto;
-  padding: 20px; }
-
-.intro {
-  position: relative;
+  padding: 20px;
   text-align: center;
-  margin: 0; }
+  padding-block-start: 50px; }
 
 .heading {
-  padding-top: 50px;
-  padding-bottom: 30px;
-  font-size: 30px;
-  text-align: center; }
+  color: #333333; }
 
-.paragraph {
-  padding-top: 33px;
-  padding-bottom: 33px; }
+.pararaph {
+  color: #4f4f4f; }
+
+.intro {
+  margin: 0;
+  padding-block-end: 33px; }
 
 @media (min-width: 1114px) {
   .introduction {
     display: flex;
-    text-align: left;
-    justify-content: flex-start; } }
+    text-align: start;
+    justify-content: flex-start; }
+  .masthead {
+    background-image: url("../img/bg_header.png");
+    background-repeat: no-repeat; } }
 
-.introduction {
-  background-image: url(../webroot/img/bg_header.png);
-  background-repeat: no-repeat; }
+.intro-heading {
+  font-size: 30px; }
 
 .logo-sports {
   display: flex;
   justify-content: center;
-  margin: 0; }
+  margin: 0;
+  padding-top: 30px; }
 
 @media (min-width: 1114px) {
   .lg-sports {
