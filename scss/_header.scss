@@ -4,6 +4,7 @@
   align-items: center;
   margin: auto;
   padding: 20px;
+  text-align: center;
 }
 
 .intro {
@@ -12,29 +13,22 @@
   margin: 0;
   }
 
-.heading {
-  padding-top: 50px;
-  padding-bottom: 30px;
-  font-size: 30px;
-  text-align: center;
-}
-
-.paragraph {
-  padding-top: 33px;
-  padding-bottom: 33px ;
-}
-
 @media (min-width: 1114px) {
   .introduction {
     display: flex;
-    text-align: left;
+    text-align: start;
     justify-content: flex-start;
+  }
+
+  body {
+    background-image: url("../webroot/img/bg_header.png");
+    background-repeat: no-repeat;
   }
 }
 
 
-.introduction  {
-  background-image: url(../webroot/img/bg_header.png);
-  background-repeat: no-repeat;
-}
-
+// .introduction  {
+//   background-image: url("/webroot/img/bg_header.png");
+//   background-repeat: no-repeat;
+// }
+//
