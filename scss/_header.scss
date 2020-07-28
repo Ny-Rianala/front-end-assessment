@@ -5,12 +5,20 @@
   margin: auto;
   padding: 20px;
   text-align: center;
+  padding-block-start: 50px;
+}
+
+.heading {
+  color: $color-heading;
+}
+
+.pararaph {
+  color: $color-description;
 }
 
 .intro {
-  position: relative;
-  text-align: center;
   margin: 0;
+  padding-block-end: 33px;
   }
 
 @media (min-width: 1114px) {
@@ -19,8 +27,13 @@
     text-align: start;
     justify-content: flex-start;
   }
-  .heading {
-    background-image: url("../webroot/img/bg_header.png");
+  .masthead {
+    background-image: url("../img/bg_header.png");
     background-repeat: no-repeat;
   }
 }
+
+.intro-heading {
+  font-size: 30px;
+}
+
