@@ -3,6 +3,12 @@
   flex-direction: column;
   align-items: center;
   background-color: white;
+  padding-block-end: 610px;
+  margin: 0;
+  background-image: url(../img/bg_friendly_user_interface.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+
 }
 
 .navigation {
@@ -24,7 +30,11 @@
 .main-paragraph {
   color: $color-description;
   text-align: center;
-  text-combine-upright: 1px;
+}
+
+.user-interface {
+  margin: 0;
+  padding-block-end: 26px;
 }
 
 
