@@ -1,0 +1,34 @@
+.latest-information {
+  text-align: center;
+  color: $color-description;
+  padding-top: 57px;
+  padding-bottom: 43px;
+  margin: 0;
+  font-size: 28px;
+}
+
+.sport-tv {
+  background-image: url(../img/logo_sports_tv.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+  width: 149px;
+  height: 52px;
+}
+
+.sports {
+  background-image: url(../img/logo_sports_channel.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+  width: 102px;
+  height: 32px;
+}
+
+
+.design-tech {
+  background-image: url(../img/logo_designer_technology.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 110px;
+  height: 32px;
+}
