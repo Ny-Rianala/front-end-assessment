@@ -7,6 +7,19 @@
   font-size: 28px;
 }
 
+.information-site {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.information-site-design {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
 .sport-tv {
   background-image: url(../img/logo_sports_tv.svg);
   background-repeat: no-repeat;
@@ -19,16 +32,35 @@
   background-image: url(../img/logo_sports_channel.svg);
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: left;
+  background-position: right;
   width: 102px;
   height: 32px;
 }
 
 
+.nbc-sports {
+  background-image: url(../img/logo_nbc_sports.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
 .design-tech {
   background-image: url(../img/logo_designer_technology.svg);
   background-repeat: no-repeat;
+  background-position: 50% 50%;
   background-size: contain;
   width: 110px;
   height: 32px;
+}
+
+.dn {
+  background-image: url(../img/logo_designer_news.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.sky-sports {
+  background-image: url(../webroot/img/logo_sky_sports.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
