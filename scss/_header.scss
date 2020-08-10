@@ -4,9 +4,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
   text-align: center;
-  padding-block-start: 50px;
+
 }
 
 .heading {
@@ -22,6 +23,7 @@
 @media(min-width: 1114px) {
 .heading {
   font-size: 36px;
+  max-width: 546px;
 }
 .paragraph {
   font-size: 18px;
@@ -41,9 +43,20 @@
     justify-content: flex-start;
   }
   .masthead {
-    background-image: url("../img/bg_header.png");
+    position: relative;
+    background-image: url("../img/bg_header(2).png");
     background-repeat: no-repeat;
-
+    background-position-x: calc(50vh - 11px);
+    background-position-y: 0;
+  }.section-heading {
+    max-width: 1114px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
+.section-heading {
+  max-width: 1114px;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+}

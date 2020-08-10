@@ -1,11 +1,18 @@
-.lg-sports {
-  display: flex;
-  justify-content: center;
+.logo-sports {
   margin: 0;
   padding-top: 30px;
-  width: 186px;
   height: 70px;
+  padding-bottom: 50px;
+   & a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   & img {
+     width: 186px;
+   }
 }
+
 
 @media (min-width: 1114px) {
   .lg-sports {
