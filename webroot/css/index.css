@@ -61,19 +61,20 @@ ul a {
 
 @media (min-width: 1114px) {
   .introduction {
-    display: flex;
-    text-align: start;
-    justify-content: flex-start; }
+    align-items: flex-start;
+    text-align: start; }
   .masthead {
-    position: relative;
-    background-image: url("../img/bg_header(2).png");
+    background-image: url("../img/bg_header_modified.png");
     background-repeat: no-repeat;
-    background-position-x: calc(50vh - 11px);
-    background-position-y: 0; }
+    background-position-x: calc(100vh - 22px);
+    background-position-y: 0;
+    padding-bottom: 245px; }
   .section-heading {
     max-width: 1114px;
     margin-left: auto;
-    margin-right: auto; } }
+    margin-right: auto; }
+  .paragraph {
+    max-width: 546px; } }
 
 .section-heading {
   max-width: 1114px;
@@ -95,7 +96,10 @@ ul a {
 @media (min-width: 1114px) {
   .lg-sports {
     display: flex;
-    justify-content: start; } }
+    justify-content: start;
+    width: 99px; }
+  .logo-sports a {
+    align-items: start; } }
 
 .download-button {
   display: flex;
@@ -185,25 +189,19 @@ ul a {
   margin-left: 20px; }
 
 .latest-information {
-  text-align: center;
   color: #4f4f4f;
+  text-align: center;
   padding-top: 57px;
   padding-bottom: 43px;
   margin: 0;
   font-size: 28px; }
 
 .information-site {
-  position: relative;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between; }
 
-/*.information-site-design {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding-inline-start: 20px;
-}*/
 .sport-tv {
   background-image: url(../img/logo_sports_tv.svg);
   background-repeat: no-repeat;
@@ -212,7 +210,6 @@ ul a {
 .sports {
   background-image: url(../img/logo_sports_channel.svg);
   background-repeat: no-repeat;
-  background-size: contain;
   flex-basis: 50%; }
 
 .nbc-sports {
@@ -223,26 +220,17 @@ ul a {
 .design-tech {
   background-image: url(../img/logo_designer_technology.svg);
   background-repeat: no-repeat;
-  background-size: contain;
   flex-basis: 40%; }
 
 .dn {
   background-image: url(../img/logo_designer_news.svg);
   background-repeat: no-repeat;
-  background-position: right;
   flex-basis: 40%; }
 
 .sky-sports {
   background-image: url(../webroot/img/logo_sky_sports.svg);
   background-repeat: no-repeat;
   flex-basis: 100%; }
-
-@media (min-width: 1114px) {
-  .icon {
-    display: grid;
-    grid-template-columns: repeat(1fr);
-    grid-row: 3;
-    grid-column: 3; } }
 
 .site-information {
   background-color: #00ADEE;
