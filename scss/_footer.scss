@@ -30,7 +30,6 @@
   }
   svg {
     fill: currentColor;
-
   }
 }
 
@@ -51,4 +50,13 @@
 
 .navigation-link {
   background-color: $color-of-link;
+}
+
+
+@media(min-width: 1114px) {
+  .navigation-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
 }
