@@ -295,3 +295,9 @@ svg {
 
 .navigation-link {
   background-color: #00ADEE; }
+
+@media (min-width: 1114px) {
+  .navigation-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; } }
