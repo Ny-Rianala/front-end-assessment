@@ -38,20 +38,24 @@
 
 @media (min-width: 1114px) {
   .introduction {
-    display: flex;
+    align-items: flex-start;
     text-align: start;
-    justify-content: flex-start;
+
   }
   .masthead {
-    position: relative;
-    background-image: url("../img/bg_header(2).png");
+    background-image: url("../img/bg_header_modified.png");
     background-repeat: no-repeat;
-    background-position-x: calc(50vh - 11px);
+    background-position-x: calc(100vh - 22px);
     background-position-y: 0;
+    padding-bottom: 245px;
   }.section-heading {
     max-width: 1114px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .paragraph {
+   max-width: 546px;
   }
 }
 
