@@ -14,7 +14,8 @@
 body {
   font-family: "Lato", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 16px;
-  background-color: #f4f6f9; }
+  background-color: #f4f6f9;
+  margin: 0; }
 
 span {
   visibility: hidden; }
